@@ -1,1 +1,2 @@
-# My_Projects
+# EXERCISES
+## These are my practices for learning
