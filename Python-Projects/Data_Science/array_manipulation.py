@@ -81,3 +81,31 @@ reshaped_array = original_array.reshape(2,3,-1)    #Its for reshaping the array 
 #np.flipud(arr) reverse the rows
 #np.fliplr(arr) reverse the coulumns
 #arr.T for transpose the matrix
+
+
+
+#LOOPS
+
+'''
+We can access items by for loops on arrays
+If array is 2d or 3d we have to use nested for loop 
+We can use np.nditer(arr) for all dimension arrays
+
+for arr_index,arr_value in np.ndenumarate(arr):
+      print(arr_index,arr_value)
+
+its output indexes of array
+'''
+
+
+#UNION
+'''
+x = np.array([[10,20], [30,40]])
+y = np.array([[50,60] ,[70,80]])
+z = np.concatenate((x,y), axis=1) seperate first arrays and second arrays
+if axis=0 write them in order next to down
+'''
+#np.stack((arr1,arr1),axis=0) create a 2d array if axis=1 seperate the coulumns
+#np.hstack((arr1,arr1)) horizontal array
+#np.vstack((arr1,arr1)) vertical array
+#np.dstack((arr2d,arr2d)) creating 3d array
