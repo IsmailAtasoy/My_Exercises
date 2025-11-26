@@ -105,7 +105,17 @@ y = np.array([[50,60] ,[70,80]])
 z = np.concatenate((x,y), axis=1) seperate first arrays and second arrays
 if axis=0 write them in order next to down
 '''
-#np.stack((arr1,arr1),axis=0) create a 2d array if axis=1 seperate the coulumns
-#np.hstack((arr1,arr1)) horizontal array
-#np.vstack((arr1,arr1)) vertical array
+#np.stack((arr1d,arr1d),axis=0) create a 2d array if axis=1 seperate the coulumns
+#np.hstack((arr1d,arr1d)) horizontal array
+#np.vstack((arr1d,arr1d)) vertical array
 #np.dstack((arr2d,arr2d)) creating 3d array
+
+
+
+#SEPERATION
+'''
+np.array_split(arr,x) split array to x arrays
+np.hsplit(arr,x) split 2d array horizontally
+np.vsplit(arr,x) split 2d array vertically
+np.dsplit(arr,x) split 3d array coulumn by coulumn 
+'''
