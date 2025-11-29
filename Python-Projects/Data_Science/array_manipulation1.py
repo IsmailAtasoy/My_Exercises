@@ -62,7 +62,7 @@ print(new_array.dtype)
 
 
 #COPY VİEW SHAPE METHODS
-
+'''
 original_array = np.array([10,20,30,40,50,60])
 new_array = original_array.copy()   #the changes on original array doesnt affect this copy
 view_array = original_array.view()  #the changes on both original and this array affect each other
@@ -81,7 +81,7 @@ reshaped_array = original_array.reshape(2,3,-1)    #Its for reshaping the array 
 #np.flipud(arr) reverse the rows
 #np.fliplr(arr) reverse the coulumns
 #arr.T for transpose the matrix
-
+'''
 
 
 #LOOPS
@@ -104,12 +104,12 @@ x = np.array([[10,20], [30,40]])
 y = np.array([[50,60] ,[70,80]])
 z = np.concatenate((x,y), axis=1) seperate first arrays and second arrays
 if axis=0 write them in order next to down
-'''
+
 #np.stack((arr1d,arr1d),axis=0) create a 2d array if axis=1 seperate the coulumns
 #np.hstack((arr1d,arr1d)) horizontal array
 #np.vstack((arr1d,arr1d)) vertical array
 #np.dstack((arr2d,arr2d)) creating 3d array
-
+'''
 
 
 #SEPERATION
