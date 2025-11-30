@@ -77,17 +77,4 @@ result5 = random.choice(arr,size=(4,3)) #generate a 4x3 matrix by array items ra
 print(result5)
 """
 
-#RANDOM DATA DISTRIBUTION
-'''
-arr = [1,2,3,4,5,6]
-
-result = random.choice(arr,p=[0.5,0.2,0.1,0.1,0.1,0.0],size=100) #decide probability of items 
-
-#values,counts = np.unique(result,return_counts=True)    
-#for val,count in zip(values,counts):
-    #print(f"{val} : {count} times seen")
-
-result2 = random.permutation(arr) #copy shuffle
-random.shuffle(arr) #shuffle original array
-'''
 
